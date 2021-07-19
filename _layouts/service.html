@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include header.html %}
+
+    <div class="wrapper container">
+
+        <h1 class="text-center">{% if page.title %}{{ page.title }}{% else %} {{ site.title }}{% endif %} </h1>
+        <p class="text-center">{{page.content}}</p>
+        <div class="row justify-content-center">   
+            {% for services in site.services %}
+
+
+            <div class="card m-4" style="width: 18rem;">
+                <div class="card-body"> 
+
+                    <h4>
+                        {{services.title}}
+
+                    </h4>
+
+                    <p>
+                        {{services.content}}
+
+                    </p>
+         
+            </div>
+
+        </div>
+        {% endfor %}
+
+    </div>
+    </div>
+
+
+    {% include footer.html%}
+    {% include scripts.html%}
+</body>
+
+</html>

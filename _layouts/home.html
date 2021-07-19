@@ -4,18 +4,22 @@
    {% include head.html %}
   </head>
   <body>
-    {% if page.title %}{{ page.title }}{% else %} {{ site.title }}{% endif %}
+   {% include header.html %}
+<secton class="banner" style="background-image: url('{{site.baseurl}}/{{page.background-image}}'); background-repeat: no-repeat; background-size: cover;">
 
-<h1>
-    {{ page.banner-heading}}
-</h1>
-<h6>
-    {{ page.banner-sub-heading}}
-</h6>
-<img src="{{page.baseurl}}/{{page.background-image}}" alt="">
-
-
-
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center mt-5 mb-5">
+            <h1 class=" mt-5 ">
+                {{ page.banner-heading}}
+            </h1>
+            <h6 class="mb-5">
+                {{ page.banner-sub-heading}}
+            </h6>
+        </div>
+    </div>
+</div>
+</secton>
 
 {% include footer.html%}
 {% include scripts.html%}
