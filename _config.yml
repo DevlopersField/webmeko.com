@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  services:
+    title: services
+    output: true
 email: viraj.chaudhary@apexure.com
 description: web site using jekyll git and sithub and for cms we use siteleaf.
 baseurl: "/webmeko.com"
