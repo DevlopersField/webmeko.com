@@ -5,6 +5,18 @@
   </head>
   <body>
     {% if page.title %}{{ page.title }}{% else %} {{ site.title }}{% endif %}
+
+<h1>
+    {{ page.banner-heading}}
+</h1>
+<h6>
+    {{ page.banner-sub-heading}}
+</h6>
+<img src="{{page.baseurl}}/{{page.background-image}}" alt="">
+
+
+
+
 {% include footer.html%}
 {% include scripts.html%}
   </body>
