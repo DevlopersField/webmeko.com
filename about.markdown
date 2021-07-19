@@ -11,7 +11,7 @@ sub-heading-2-para: At vero eos et accusamus et iusto odio dignissimos ducimus q
 sub-heading-3: Dine Pad
 sub-heading-3-para: Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
   odit. Sunt aut deserunt minus aut eligendi omnis
-layout: home
+layout: about
 ---
 
 Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
