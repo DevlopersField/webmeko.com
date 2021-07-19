@@ -1,5 +1,4 @@
 ---
-# title: webmeko
 banner-heading: WELCOME TO  WEBMEKO
 banner-sub-heading: Duis aute irure dolor in reprehenderit Asperiores dolores sed
   et. Tenetur quia eos.
